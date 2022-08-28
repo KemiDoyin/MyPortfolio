@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kemi Adedoyin">  
+    <script src="https://kit.fontawesome.com/02f93720a3.js" crossorigin="anonymous"></script>
+    <link rel = "icon" type = "image/png" href = "images/mylogo.png">
+    <link rel="stylesheet" href="mywebsite.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>   
+    <title>Kemi Adedoyin</title>
+</head>
+<body>
+    <!-- ====Header==== -->
+        <header>
+            <nav class="nav">
+                <h2  class="logo"><a href="#"></a> KA</h2>
+                <div class="hamburger">
+                    <a href="#"><i class="fa fa-bars"></i></a>
+                </div>
+                <ul class="nav-link hide" >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </header>    
+
+        <!-- ====Home Section====  -->
+    <section id="home">
+        <div class="content-text">
+        <h1>I'm <span data-text="Kemi">Kemi</span></h1>
+        <p>a front-end developer with enthusiasm and great passion in learning as the world evolves</p>
+        <a href="#about" class="link">Read more</a>
+        </div>
+    </section> 
+    <!-- ====About Section====  -->
+    <section id="about">
+        <div class="main">
+            <img src="images/pic2.jpg" alt="" >
+            <div class="about-text">
+                <h2>about me</h2>
+                <h5>developer <span>& freelancer</span></h5>
+                <p>I am driven by passion and interest for programming and design. I've been equipped with a diverse and promising skill-set. I enjoy the process of development from the concept and ideation to the final design and completion. You can view my work below and do get in touch.</p>
+                <a href="Resume/Resume.pdf" class="btn" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- ====Skill Section==== -->
+    <section class="theskills">
+        <div class="skilltext">
+            <h2>My Skills</h2>
+            <p> Here are the key languages that I've learnt and I use to develop web. </p>
+            </div>
+            <div class="skillicon">
+                <i class="fa fa-html5"><p>HTML5</p></i>
+                <i class="fa fa-css3-alt"><p>CSS3</p></i>
+                <i class="fa fa-js"><p>JS</p></i>
+                <i class="fa fa-python"><p>PYTHON</p></i>
+            </div>
+    </section>
+    <!-- ====Portfolio Section==== -->
+    <section id="portfolio">
+        <div class="pftitle">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="gridwrap">
+            <div class="gridcol">
+                <a href="#modalbox"><img src="images/BaseApprel.jpg"></a>
+            </div>
+            <div id="modalbox" class="modal">
+                <div class="card">
+                    <img src="images/BaseApprel.jpg" alt="John" style="width:100%">
+                    <h1>Coming Soon Page</h1>
+                    <p class="title">This project is one of Front End Mentors Challenge. It involves using the basic of HTML, CSS, and, JS to build a simple Page for Base Apparel using Flexbox. Using Javascript to alert an error when an invalid email address is inputed.Also, making correct alignment of buttons in a container with background image(svg) and with the onclick function.</p>
+                    
+                    <a href="#portfolio" class="modalclose">&times;</a>
+                  </div>
+            </div>
+            <div class="gridcol">
+                <a href="#modalbox1"><img src="images/sunside.jpg"></a>
+            </div>
+            <div id="modalbox1" class="modal">
+                <div class="card">
+                    <img src="images/sunnyside.jpg"  style="width:100%">
+                    <h1>Sunnyside Landing Page</h1>
+                    <p class="title">This project is one of the coding challenge on Front End Mentors. Making use of gird and grid-template and the use of div#order to re-arrange containers for mobile view.</p>
+                    <a href="#portfolio" class="modalclose">&times;</a>
+                  </div>
+            </div>
+            <div class="gridcol">
+                <a href="#modalbox2"><img src="images/snipshot2.png"></a>
+            </div>
+            <div id="modalbox2" class="modal">
+                <div class="card">
+                    <img src="images/snipshot2.png" style="width:100%">
+                    <h1>CSS Technical Page</h1>
+                    <p class="title">
+                        This is a technical page i worked on in Free Code Camp. Using code elements and be able to beautify a write-up.
+                    </p>
+                    <a href="#portfolio" class="modalclose">&times;</a>
+                  </div>
+            </div>
+            <div class="gridcol">
+                <a href="#modalbox3"><img src="images/phone.jpeg"></a>
+            </div>
+            <div id="modalbox3" class="modal">
+                <div class="card">
+                    <img src="images/product2.jpg"  style="width:100%">
+                    <h1>Project Landing Page</h1>
+                    <p class="title">This is personal project i worked on for using image sliders and grid.</p>
+                    <a href="#portfolio" class="modalclose">&times;</a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====Contact Section==== -->
+    <section id="contact" class="contact-details">
+        <h3>Let's Connect</h3>
+        <div class="details">
+            <h4>Email me at:</h4>
+            <p><a href="mailto:kemidoy@gmail.com">kemidoy@gmail.com</a></p>
+        </div>
+    </section>
+    <!-- ====Footer Section==== -->
+    <section class="footer">
+        <div class="footer-links">
+            <ul>
+            <li><a href="https://twitter.com/KemiAdedoyin_?t=42VTHVGEDwLkny9LX_Tsaw&s=08"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://pin.it/dlY3E2P"><i class="fab fa-pinterest"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/helen-didi-430756235?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPnhCP4jHRK28Zy1G9iyheg%3D%3D"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+            </div>
+            <div class="footer-notes">
+                <span>
+                    <i class="fa fa-copyright"></i> 2022 All rights reserved | Design & Developed by
+                    <a href="#">KemiAdedoyin</a>
+                </span>
+            </div>
+    </section>
+    <script src="mywebsite.js"></script>
+</body>
+</html>
